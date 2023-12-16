@@ -39,3 +39,28 @@ let rand = 55
 let strinNumber = String(rand)
 console.log(strinNumber);
 console.log(typeof strinNumber);
+
+
+
+// *********** Operation in Data Types **********
+
+let value = 3
+let nValue = -value
+console.log(nValue);
+
+let str1 = "Code"
+let str2 = " Source"
+let str3 = str1 + str2
+console.log(str3);
+
+
+console.log("11" + 12);
+console.log(10 + "12");
+console.log("11" + "12");
+console.log("11" + 12 + 12);
+console.log(5 + 5 + "12");
+
+
+console.log(+true);
+// console.log(ture+);
+console.log(+"");
