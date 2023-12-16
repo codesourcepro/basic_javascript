@@ -1,4 +1,18 @@
 /*
+Dataypes
+1. Primtives
+    - String        => const name = "Codesourcepro"
+    - Number        => const score = 102
+    - Boolean       => const isLoggedIn = false
+    - null          => const temperature = null
+    - undefined     => let userEmail;
+    - Symbol        => const id = Symbol('274465')
+    - BigInt        => const bigNumber = 31242325654323456432n
+2. Reference (Non primitive)
+    - Array         => const college = ["Advanced", "Trinity", "Xavier", "Prasadi", "United"]
+    - Objects       => const myObj = {name: "Codesource", age:5}
+    - Funtions
+
 DataType Conversion in JavaScript
 
 */
