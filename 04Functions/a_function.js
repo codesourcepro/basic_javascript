@@ -40,3 +40,19 @@ Rules:
         }
 
 */
+
+// Display name five times
+console.log("CodeSourcePro");
+console.log("CodeSourcePro");
+console.log("CodeSourcePro");
+console.log("CodeSourcePro");
+console.log("CodeSourcePro");
+
+
+// Creating function
+function Display(){
+    console.log("CodeSourcePro");
+}
+
+// calling function
+Display()
