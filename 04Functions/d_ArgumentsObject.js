@@ -1,7 +1,9 @@
 /**
  * Agruments Object in Javascript
  * => The arguments object contains an array of the arguements used when the function was called.
- * => The object contains an entry for each arguments passed to the function, the first entry's index starting at 0.The arguments object is not an Array. It is similar to an Array, but does not have any Array properties except lenght.
+ * => The object contains an entry for each arguments passed to the function, the first entry's index 
+ *      starting at 0.The arguments object is not an Array. It is similar to an Array, but does not have 
+ *      any Array properties except lenght.
  * 
  */
 
