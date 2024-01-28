@@ -36,10 +36,60 @@ Lexical Structure
     program statement is separated from the next.
 
     1. Character Set
+    => A character set is the key component behind displaying, manipulating and editing text, numbers and 
+        symbols on a computer.A character set is created through a process known as encoding i.e. each 
+        character is assigned with a unique code or value.
+
+    => JavaScript programs are written using the Unicode character set. Unicode is a superset of ASCII 
+        and Latin-1 and supports virtually every written language currently used on the planet. 
+        ECMAScript 3 requires JavaScript implementations to support Unicode version 2.1 or later, and 
+        ECMAScript 5 requires implementations to support Unicode 3 or later. See the sidebar in Text for more 
+        about Unicode and JavaScript.
+
+    => All word and/or data processing applications are embedded with one or more character sets.
+        The characters within a character set can be text, number or even symbols. Each character is 
+        represented by a number. ASCII characters set is one of the most popular character sets used by 
+        general computers to display text or numbers on computer screen. It represents uppercase and lower 
+        case English alphabets, number, mathematical operators and symbols from number 0–127.
+
     2. Identifier
+    - An identifier is a sequence of characters in the code that identifies a variable, function, or property.
+        In JavaScript, identifiers are case-sensitive and can contain Unicode letters, $, _, and digits (0-9),
+        but may not start with a digit.
+    
+    - An identifier differs from a string in that a string is data, while an identifier is part of the code. 
+        In JavaScript, there is no way to convert identifiers to strings, but sometimes it is possible to parse 
+        strings into identifiers.
+
     3. Keywords
+
     4. Letirals
     5. Commments
+        - A JavaScript comment is a powerful programming construct to explain complex code blocks, what they 
+        do, and why they were implemented in a particular way. As systems and websites evolve, Developers 
+        always end up writing code that is complex. Code written this way might make complete sense to the 
+        original author or Developer, but might not be obvious to a Developer new to the team looking at the
+         code for the very first time, or even to the author’s future self. In such cases, comments are a 
+         very powerful tool to explain the thought process and decisions made while writing a block of code.
+         
+        a) JavaScript Single-Line Comment
+        - Single line comments are very useful to add a quick comment or explanation over a line of code. 
+        In JavaScript, a single line comment can be added by using two forward slashes //. 
+        Below are some examples of single-line comments in JavaScript code.
+
+        // print hello world
+        console.log("hello world")
+
+        b) JavaScript Multi-Line Comment
+        - Sometimes, a single line is not enough to document or explain why certain code is written in a 
+        particular way or what it does. This is when a JavaScript Developer will opt for writing comments 
+        across multiple lines (a JavaScript multi-line comment can also be referred to as block comments).
+        
+        Multi-line comments in JavaScript code can be added by writing the comment between a forward-slash 
+        followed by asterisk / * and asterisk followed by a forward-slash * /. Below are some examples of 
+        multi-line comments.
+
+
     6. Optional Semicolons
 
 2. Data Type
